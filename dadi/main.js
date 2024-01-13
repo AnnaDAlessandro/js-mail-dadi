@@ -8,7 +8,7 @@ const computer= randomNumber(0, 6)
 const RisultatoGioco= document.getElementById(`risultato`)
 
 function randomNumber(min, max) {
-    return min + Math.random() * (max - min);
+    return min + Math.random() * (6 - 0);
   }
 
 console.log(Giocatore,computer)
